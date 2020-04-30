@@ -1,0 +1,29 @@
+#about {
+    width: 100%;
+    font-size: 7vh;
+    border-bottom: 1.5px solid gray;
+    padding-bottom: 1.5%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#pictures {
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.portraits {
+    width: 20%;
+    text-align: center;
+}
+
+#aboutUs {
+    padding: 5% 15%;
+}
+
+#aboutUs p {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
