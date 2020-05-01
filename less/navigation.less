@@ -1,6 +1,7 @@
 nav {
     width: 100%;
-    .displayflex(space-between, baseline);
+    display: flex;
+    justify-content: space-between;
     color:black;
     padding: 0.5% 0;
 
@@ -17,13 +18,15 @@ nav {
 }
 
 ul {
-    .displayflex(flex-end, baseline);
+    display: flex;
+    justify-content: flex-end;
     list-style-type: none;
     padding-right: 1%;
     width: 40%;
 
     a {
-        .displayflex(flex-end, baseline);
+        display: flex;
+        justify-content: flex-end;
         text-decoration: none;
         font-size: 1.6rem;
         color: black;

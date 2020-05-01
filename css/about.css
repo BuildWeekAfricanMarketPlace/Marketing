@@ -1,29 +1,51 @@
+body {
+  background-image: url('/img/print.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #about {
-    width: 100%;
-    font-size: 7vh;
-    border-bottom: 1.5px solid gray;
-    padding-bottom: 1.5%;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
+  width: 50%;
+  font-size: 7vh;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: white;
+  margin: 10% 25% 0 25%;
+  padding: 1% 0;
 }
-
-#pictures {
-    display:flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.portraits {
-    width: 20%;
-    text-align: center;
-}
-
 #aboutUs {
-    padding: 5% 15%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
 }
-
-#aboutUs p {
-    font-size: 1.6rem;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
+#pictures {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.portraits {
+  width: 30%;
+}
+img {
+  object-fit: contain;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+#text {
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+}
+#text p {
+  padding: 3% 0;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  line-height: 150%;
 }
