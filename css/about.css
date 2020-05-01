@@ -8,14 +8,14 @@ body {
   font-size: 7vh;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  background-color: white;
+  background-color: rgb(245, 224, 186);
   margin: 10% 25% 0 25%;
   padding: 1% 0;
 }
 #aboutUs {
   display: flex;
   justify-content: center;
-  background-color: white;
+  background-color: rgb(245, 224, 186);
   margin: 0 auto;
   padding: 0;
   width: 50%;
@@ -36,7 +36,7 @@ img {
   border: none;
 }
 #text {
-  background-color: white;
+  background-color: rgb(245, 224, 186);
   width: 50%;
   margin: 0 auto;
 }
